@@ -86,7 +86,7 @@ module Compass
           next p if p.respond_to?(:find_relative)
           importer.new(p.to_s)
         end
-        load_paths << Compass::SpriteImporter.new
+        load_paths << Compass::Sprites::Importer.new
         load_paths
       end
 

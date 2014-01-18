@@ -34,7 +34,8 @@ end
    configuration/file_data
    app_integration
    compiler
-   sprite_importer
 ).each do |lib|
   require "compass/#{lib}"
 end
+#tem
+require 'compass/sprites/importer'
